@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="personal blog" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<style type="text/css">
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body {
+background-color: #e3f2fd;
+}
+p {
+font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei";
+line-height: 150%;
+text-indent: 2em;
+letter-spacing: 1px;
+text-align: justify;
+/* word-spacing: 1px; */
+}
+a {
+/* text-decoration: none; */
+color: black;
+}
+a:visited {
+color: gray;
+}
+h1 {
+font-size: 25px;
+}
+h2 {
+font-size: 21px;
+}
+h3 {
+font-size: 20px;
+}
+h4 {
+font-size: 19px;
+}
+h5 {
+font-size: 19px;
+}
+img {
+display: block;
+width: 50%;
+margin: auto;
+}
+.md-info-font {
+font-size: 16px;
+line-height: 100%;
+text-indent: 0;
+}
+.md-content-font {
+font-size: 18px;
+line-height: normal;
+text-align: justify;
+}
+.md-article-box {
+background-color: #bbdefb;
+max-width: 800px;
+margin-top: 60px;
+margin-bottom: 60px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+box-shadow: 6px 6px 8px #d2d2d2;
+}
+.md-article-info {
+border: solid;
+border-width: 0px;
+border-bottom-width: 3px;
+border-bottom-color: gray;
+}
+.md-toc-box {
+background-color: #00b0ff;
+position: fixed;
+width: 280px;
+left: 50px;
+top: 60px;
+padding: 15px;
+padding-left: 5px;
+padding-right: 5px;
+box-shadow: 4px 4px 8px #d2d2d2;
+}
+.md-toc {
+text-decoration: none;
+color: black;
+line-height: 150%;
+font-size: 18px;
+}
+.md-toc:visited {
+color: black;
+}
+.md-toc:hover {
+background-color: rgb(204, 221, 247);
+}
+.md-tag-link {
+text-decoration: none;
+color: red;
+}
+.md-tag-link:visited {
+color: red;
+}
+.md-highlight {
+background-color: yellow;
+}
+.md-underline {
+position: relative;
+}
+.md-underline::after {
+content: "";
+display: block;
+position: absolute;
+bottom: 1px;
+background-color: red;
+opacity: 0.6;
+width: 100%;
+height: 0.3rem;
+}
+.md-bold {
+color: red;
+}
+.md-block {
+background-color: #353535;
+color: white;
+display: block;
+font-size: 16px;
+margin-left: 35px;
+margin-right: 35px;
+padding-left: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-indent: 0%;
+}
+</style>
+</head>
+<body>
+<div class="md-article-box">
+<h1 id="0998b">Hello GitHub Pages</h1>
+<div class="md-article-info">
+<p class="md-info-font">
+2021-05-28<br>tag:
+<span><a class="md-tag-link" 
+        href="../index.html?tag=github">#github</a></span>
+</p>
+</div>
+<h2 id="fd2ad">拥有一个自己的博客</h2>
+<p class="md-content-font">一直想在互联网的一个角落里拥有一个自己的博客，一是因为看到别人的网页做的非常的漂亮，自己也想做一个；二是因为自己一直也想写一点东西。但是一直没有付诸行动，很大的一个原因是一直以来没有动力写下自己的想法。</p>
+<p class="md-content-font">要想做一个博客，我觉得购买一个自己的域名就算了。从长远来看，几十年以后，自己也挂了，就没办法给域名续费了。所以还是觉得用GitHub提供的Pages服务挺不错的。注册了GitHub后，大部分人都是选一个现成的博客主题。我也是这样，无所事事的时候就浏览了很多博客主题。有些博客主题很符合我意。但是有一个问题，我对Hexo、Jekyll等那些东西都不了解，虽然说可以无脑安装，但是在没弄懂的前提下，我还是不想用。还有另外一个原因，就是那些我看着很好看的主题，它们的文章在后台的存储方式不符合我的想法。虽然它们在网页上呈现出来的样子没有问题，但是当用文件管理器查看的时候我感觉太乱了。</p>
+<p class="md-content-font">于是就学了一点HTML、CSS、JavaScript的知识。但是我学这些东西还不是为了写个网页，最初的想法是为了实现一个基于浏览器的应用（挖个坑）。现在呢，就想着用目前学到的知识做一个自己的博客主题。</p>
+<h2 id="813fe">我的博客主题</h2>
+<h3 id="61a3e">介绍</h3>
+<p class="md-content-font">第一点就是要简单，也是不想把更多的时间花在维护博客上面。所有的文章都放在一个文件夹下，方便管理。网页呈现的话，内容也是一条一条的，点击题目就直接显示内容。这一点<a href="https://news.ycombinator.com/news">Hacker News</a>很像，实际上也参考了它的做法。</p>
+<p class="md-content-font">
+为了关联同一主题的文章，就设置了一个标签的功能，有相同标签的文章可以聚合在一起。除此之外，就没有其它的功能了。</p>
+<p class="md-content-font">首页是所有文章的一个列表。点击标题就可以查看这篇文章。文章中有一个标签的列表，点击标签就可以查看所有相关的文章。</p>
+<p class="md-content-font">总体上很简洁，代码上也是用的纯JavaScript，没有其它依赖，只需要做一点修改，就可以拿来即用。</p>
+<h3 id="b21dc">markdown to html</h3>
+<p class="md-content-font">为了写作的方便，还是用markdown书写比较好。但是GitHub提供的是静态的网页，所以还得把markdown格式的笔记转换成html格式的。网上有很多格式转换的轮子，但是思来想去还是自己再造一个比较好，主要是为了使生成的页面与博客主题保持一致。</p>
+<p class="md-content-font">我自己造的轮子，md2html，<a href="https://www.github.com">这里</a>。目前还不够完善，只能转换一些最基本的markdown标记。后面再慢慢实现一些更复杂的功能吧。
+</p>
+</div>
+<div class="md-toc-box">
+<a class="md-toc" href="javascript:void(0);" onclick="javascript:document.getElementById('0998b').scrollIntoView()"><div class="md-toc">&nbsp&nbspHello GitHub Pages</div></a>
+<a class="md-toc" href="javascript:void(0);" onclick="javascript:document.getElementById('fd2ad').scrollIntoView()"><div class="md-toc">&nbsp&nbsp&nbsp&nbsp拥有一个自己的博客</div></a>
+<a class="md-toc" href="javascript:void(0);" onclick="javascript:document.getElementById('813fe').scrollIntoView()"><div class="md-toc">&nbsp&nbsp&nbsp&nbsp我的博客主题</div></a>
+<a class="md-toc" href="javascript:void(0);" onclick="javascript:document.getElementById('61a3e').scrollIntoView()"><div class="md-toc">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp介绍</div></a>
+<a class="md-toc" href="javascript:void(0);" onclick="javascript:document.getElementById('b21dc').scrollIntoView()"><div class="md-toc">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspmarkdown to html</div></a>
+</div>
+</body>
+</html>
