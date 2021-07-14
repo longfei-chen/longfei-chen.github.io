@@ -11,62 +11,24 @@ body {
 p {
     font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei";
 }
-/*
-.title-font {
-    font-size: 25px;
-}
-.info-font {
-    font-size: 15px;
-}
-.content-font {
-    font-size: 20px;
-    line-height: normal;
-    text-align: justify;
-}
 
-.article-box {
+button {
+    display: inline;
     background-color: #bbdefb;
-    max-width: 800px;
-
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    box-shadow: 6px 6px 8px #d2d2d2;
+    color: black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
 }
 
-
-.article-info {
-    border: solid;
-    border-width: 0px;
-    border-bottom-width: 3px;
-    border-bottom-color: gray;
+a {
+    text-decoration: none;
+    color: black;
 }
-
-
-.left-toc {
-    background-color: #00b0ff;
-    position: fixed;
-    width: 280px;
-    left: 50px;
-    top: 50px;
-    padding-left: 15px;
-    box-shadow: 4px 4px 8px #d2d2d2;
-    
-} */
-
-.top-nav {
-    position: fixed;
-    top: 0px;
-    padding-left: auto;
-    padding-right: auto;
-    background-color: aqua;
+a:visited {
+    color: gray;
 }
 
 .blog-box {
@@ -83,7 +45,6 @@ p {
     padding-right: 20px;
     padding-top: 1px;
     padding-bottom: 1px;
-    
 }
 
 .blog-item {
@@ -99,32 +60,11 @@ p {
     margin: auto;
 }
 
-
-button {
-    display: inline;
-    background-color: #bbdefb;
-    color: black;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-
-a {
-    text-decoration: none;
-    color: black;
-}
-a:visited {
-    color: gray;
-}
-
-/* 
-.tag-link {
-    text-decoration: none;
-    color: red;
-}
-.tag-link:visited {
-    color: red;
+/* .top-nav {
+    position: fixed;
+    top: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: aqua;
 } */
+
