@@ -38,7 +38,7 @@ function parseUrlParameters(){
 
         for(kv of keyValuePairs){
             [k, v] = kv.split("=");
-            res[k] = v;
+            res[k] = decodeURI(v);      //解析中文字符
         }
 
         if(!res["tag"])
