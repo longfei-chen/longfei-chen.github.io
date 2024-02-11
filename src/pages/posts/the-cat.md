@@ -3,6 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: "被诅咒的猫"
 pubDate: "2024-02-11"
 author: Long-Fei Chen
+description: 这是很久以前写在QQ空间里的一个短篇小说。
 image:
     url: '/cat_premium_photo-1673641895032-1c1f2395bb57.avif' 
     alt: 'Unsplash+ License.'
