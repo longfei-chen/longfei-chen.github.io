@@ -1,8 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "Hello GitHub Pages"
-description: "Hello GitHub Pages. xxx"
-pubDate: "2023-04-04"
+pubDate: "2023-04-05"
 tags: ["blog"]
 ---
 

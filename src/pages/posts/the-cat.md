@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "被诅咒的猫"
-pubDate: "2023-04-04"
+pubDate: "2024-02-11"
 author: Long-Fei Chen
 image:
     url: '/cat_premium_photo-1673641895032-1c1f2395bb57.avif' 
     alt: 'Unsplash+ License.'
-tags: ["short-story"]
+tags: ["story"]
 ---
 
 ## 一

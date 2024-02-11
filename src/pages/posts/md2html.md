@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: "转换Markdown到HTML的python脚本"
-description: "yyy"
+title: "转换 Markdown 到 HTML 的 python 脚本"
+description: "这个代码一起用。转向由 Astro 框架支持的博客。"
 pubDate: "2023-04-04"
 tags: ["python", "blog"]
 ---
