@@ -168,7 +168,7 @@ __需要注意的是__，上述代码可以在 CentOS 7, Python 3.6.8 下成功�
 ```python
 @ProgressBar(style=2)
 def another_job(a, b=42):
-    time.sleep(15)
+    time.sleep(10)
     return a,b
 
 if __name__ == "__main__":
