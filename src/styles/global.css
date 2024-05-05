@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-links a {
+    color: #0066cc;
     display: block;
     text-align: center;
     padding: 10px 0;
@@ -45,9 +46,8 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-.nav-links a:hover, a:focus {
-    /* background-color: #96e1f4c6; */
-    /* background-color: #eeffe8; */
+.nav-links a:hover, a:focus, a.visited, a.active {
+    color: #0066cc;
 }
 
 .expanded {
